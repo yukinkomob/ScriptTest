@@ -40,13 +40,12 @@ public class Kadai
     {
         string[] array = { "大逆転は、起こり得る。", "わたしは、その言葉を信じない。", "どうせ奇跡なんて起こらない。", "それでも人々は無責任に言うだろう。", "小さな者でも大きな相手に立ち向かえ。\n誰とも違う発想や工夫を駆使して戦え" };
 
-        Debug.Log("### 同順で表示する");
         for (int i = 0; i < array.Length; i++)
         {
             Debug.Log(array[i]);
         }
 
-        Debug.Log("### 逆順で表示する");
+        Debug.Log("いいえ、そうではない。");
         for (int i = array.Length - 1; i >= 0; i--)
         {
             Debug.Log(array[i]);
